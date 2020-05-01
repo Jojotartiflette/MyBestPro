@@ -51,7 +51,6 @@ class ItemController
         }
 
         //Set Status Code
-        var_dump($this->query);
         http_response_code($this->response['status']);
         echo $this->response['message'];
         return $this->query;
